@@ -1,0 +1,13 @@
+#topbar {
+    background: #3fbbc0;
+    color: #fff;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    z-index: 996;
+    transition: all 0.5s;
+}
+
+.topicon{
+    padding-right: 5px;
+}
