@@ -1,6 +1,6 @@
-body {
-    background-color: lightblue;
-  }
+.fontcolour{
+  color: black;
+}
 
 #topbar {
     background: #3fbbc0;
@@ -12,14 +12,12 @@ body {
     transition: all 0.5s;
 }
 
-.image{
-    width: 100%;
-    height: auto;
+.descprition{
+
 }
 
 .mt-6 {
-   margin-top: 7rem;
-    /* Position the navbar at the top of the page */
+   margin-top: 8rem;
   }
 
 .topicon{
