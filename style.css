@@ -24,8 +24,71 @@
     padding-right: 5px;
 } */
 
-.container{
-  
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.navbar-brand{
+  color: #444444!important;
+}
+
+.nav-link:hover{
+  color: #5ec6ca!important;
+}
+
+.nav-link{
+  color: #737373!important;
+}
+
+.textfont{
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+@media(max-width:668px){
+  .nav-link{
+    text-align: center;
+  }
+
+  .appointment-btn {
+    margin-left: 25px;
+    background: #3fbbc0;
+    color: #fff;
+    border-radius: 4px;
+    padding: 8px 25px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 14px;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 6;
+  }
+
+}
+
+.appointment-btn {
+  margin-left: 25px;
+  background: #3fbbc0;
+  color: #fff;
+  border-radius: 4px;
+  padding: 8px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 6;
+}
+
+.appointment-btn:hover {
+  background: #65c9cd;
+  color: #fff;
 }
 
 
