@@ -11,7 +11,7 @@ function mouseonr(){
 }
 
 function mouseoffr(){
-    next_btn_img.css("background-image","url(images/caret-right.svg.svg)")
+    next_btn_img.css("background-image","url(images/caret-right.svg)")
 }
 
 
@@ -22,11 +22,11 @@ function mouseonl(){
 }
 
 function mouseoffl(){
-    pre_btn_img.css("background-image","url(images/caret-left.svg.svg)")
+    pre_btn_img.css("background-image","url(images/caret-left.svg)")
 }
 
-function swichslide() {
-    next_btn_img.element.click();
- }
+// function swichslide() {
+//     next.element.click();
+//  }
 
- setInterval(swichslide, 5000);
+//  setInterval(swichslide, 5000);

@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   </head>
 <body>
-     <section class="header fixed-top">
+     <section class="header fixed-top shadow p-3 mb-5 bg-body-tertiary rounded">
       <div class="container">
         <nav class="navbar navbar-expand-lg">
           <div class="container-fluid gap-3">
@@ -29,7 +29,7 @@
                   <a class="nav-link" href="#about"><h1 class=" fs-4">ABOUT</h1></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#"><h1 class=" fs-4">SERVICES</h1></a>
+                  <a class="nav-link" href="#services"><h1 class=" fs-4">SERVICES</h1></a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#"><h1 class=" fs-4">DOCTOR</h1></a>
@@ -90,7 +90,7 @@
 
         <div class="row justify-content-center">
           <div class="col-lg-6 pt-4 pt-lg-0 content aos-init aos-animate" data-aos="fade-left">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+            <h3 class="text-center">Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
             <p class="fst-italic">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
               magna aliqua.
@@ -121,33 +121,33 @@
 
         <div class="row">
           <div class="col-lg-4 col-md-6 icon-box aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon"><i class="fas fa-heartbeat"></i></div>
-            <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+            <div class="icon"><img src="images/services_icons/capsule.svg"></div>
+            <h4 class="title">Service Name</h4>
             <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box aos-init aos-animate" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon"><i class="fas fa-pills"></i></div>
-            <h4 class="title"><a href="">Dolor Sitema</a></h4>
+            <div class="icon"><img src="images/services_icons/prescription2.svg"></div>
+            <h4 class="title">Service Name</h4>
             <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box aos-init aos-animate" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon"><i class="fas fa-hospital-user"></i></div>
-            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+            <div class="icon"><img src="images/services_icons/patch-check-fill.svg"></div>
+            <h4 class="title">Service Name</h4>
             <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon"><i class="fas fa-dna"></i></div>
-            <h4 class="title"><a href="">Magni Dolores</a></h4>
+            <div class="icon"><img src="images/services_icons/activity.svg"></div>
+            <h4 class="title">Service Name</h4>
             <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box aos-init aos-animate" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon"><i class="fas fa-wheelchair"></i></div>
-            <h4 class="title"><a href="">Nemo Enim</a></h4>
+            <div class="icon"><img src="images/services_icons/clock.svg"></div>
+            <h4 class="title">Service Name</h4>
             <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box aos-init aos-animate" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon"><i class="fas fa-notes-medical"></i></div>
-            <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
+            <div class="icon"><img src="images/services_icons/hospital.svg"></div>
+            <h4 class="title">Service Name</h4>
             <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
           </div>
         </div>
@@ -155,6 +155,36 @@
       </div>
     </section>
 
+    <section id="appointment" class="appointment section-bg p-2">
+      <div class="container aos-init aos-animate mt-5" data-aos="fade-up">
+
+        <div class="section-title mt-5">
+          <h2>Make an Appointment</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <form action="forms/appointment.php" method="post" role="form" class="php-email-form aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+          <div class="row">
+            <div class="col-md-4 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
+            </div>
+            <div class="col-md-4 form-group mt-3 mt-md-0">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
+            </div>
+            <div class="col-md-4 form-group mt-3 mt-md-0">
+              <input type="tel" class="form-control" name="phone" id="phone" placeholder="Your Phone" required="">
+            </div>
+          </div>
+
+          <div class="form-group mt-3">
+            <textarea class="form-control" name="message" rows="5" placeholder="Message (Optional)"></textarea>
+          </div>
+          <div class="text-center mt-2"><button type="submit">Make an Appointment</button></div>
+        </form>
+
+      </div>
+    </section>
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="index.js"></script>
