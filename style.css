@@ -21,6 +21,11 @@ h1{
 
 /* top */
 
+.clinictitle{
+  font-size:large;
+  
+}
+
 .header{
   width: 100%;
   background-color: #ffffff;
