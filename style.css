@@ -323,11 +323,10 @@ li{
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 80px;
-  height: 80px;
+  width: auto;
+  height: auto;
   margin-bottom: 20px;
   background: #fff;
-  border-radius: 50%;
   transition: 0.5s;
   color: #3fbbc0;
   overflow: hidden;
